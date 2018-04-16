@@ -1,0 +1,40 @@
+﻿  main.cpp
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2065: in: необъявленный идентификатор
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2065: Temp: необъявленный идентификатор
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2275: Temperature: недопустимое использование этого типа в качестве выражения
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(8): note:  см. объявление "Temperature"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2473: operator >>: выглядит как определение функции, но без списка параметров.
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2440: инициализация: невозможно преобразовать "initializer list" в "int &"
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): note: Тип ссылки не может инициализироваться значением
+c:\users\кристина\desktop\proga3\project1\project1\main.cpp(13): error C2872: >>: неоднозначный символ
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): note: может быть "int &>>"
+  c:\users\кристина\desktop\proga3\project1\project1\main.cpp(13): note: или       ">>"
+c:\users\кристина\desktop\proga3\project1\project1\main.cpp(13): fatal error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
+  Temperature.cc
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2065: in: необъявленный идентификатор
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2065: Temp: необъявленный идентификатор
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2275: Temperature: недопустимое использование этого типа в качестве выражения
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(8): note:  см. объявление "Temperature"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2473: operator >>: выглядит как определение функции, но без списка параметров.
+c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): error C2440: инициализация: невозможно преобразовать "initializer list" в "int &"
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): note: Тип ссылки не может инициализироваться значением
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2872: istream: неоднозначный символ
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): note: может быть "int istream"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\iosfwd(595): note: или       "std::istream"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2086: int istream: переопределение
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): note:  см. объявление "istream"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2065: in: необъявленный идентификатор
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2065: Temp: необъявленный идентификатор
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2275: Temperature: недопустимое использование этого типа в качестве выражения
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(8): note:  см. объявление "Temperature"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2473: operator >>: выглядит как определение функции, но без списка параметров.
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2374: >>: переопределение; множественная инициализация
+  c:\users\кристина\desktop\proga3\project1\project1\temperature.h(12): note:  см. объявление ">>"
+c:\users\кристина\desktop\proga3\project1\project1\temperature.cc(4): error C2448: >>: вероятно, инициализатор, использующий стиль функции, является определением функции
+  Создание кода...
