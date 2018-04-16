@@ -51,20 +51,22 @@ int    main() {
 		cerr << "\n chislo stolbtsov";
 		cin >> col_count;
 		cerr << "\n";
-		Temperature min = el[0], max = el[0];
+		double min = convert(el[0],'K'), max = convert(el[0],'K');
 		for (Temperature x : el)  {
-			if (x < min) {
-				min = x;
+			double y = convert(x, 'K');
+			if (y < min) {
+				min = y;
 			}
-			if (x > max) {
-				max = x;
+			if (y > max) {
+				max = y;
 			}
 		}
-		max = convert(max, min.scale);
+		
 		vector<size_t> bins(col_count, 0);
 		for (Temperature x : el) {
-			size_t index = (size_t)((x - min) / (max - min) * col_count);
-			if (x == max) {
+			double y = convert(x, 'K');
+			size_t index = (size_t)((y - min) / (max - min) * col_count);
+			if (y == max) {
 				index--;
 			}
 			bins[index]++;
