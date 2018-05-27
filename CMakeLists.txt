@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.6)
+project(untitled7)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_EXE_LINKER_FLAGS -static)
+set(SOURCE_FILES main.cpp Temperature.cc)
+add_executable(untitled7 ${SOURCE_FILES})
+add_executable(test_input test_input.cc Temperature.cc)
+enable_testing()
+add_test(NAME test_input COMMAND test_input)
